@@ -7,3 +7,5 @@ The Proxima node is responsible for maintaining the registry, delegating deploym
 ------
 
 
+## Functionality
+
