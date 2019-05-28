@@ -1,2 +1,9 @@
-# proxima-index-node
-Proxima node that is responsible for maintaining the registry, delegating deployments, and managing load to Proxima query nodes
+# Proxima Index Node
+
+### The Proxima node is responsible for maintaining the registry, delegating deployments, and managing load to Proxima query nodes
+
+
+
+
+
+
