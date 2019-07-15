@@ -34,3 +34,39 @@ const {Tree, Proof} = proxima;
 
 
 ::::
+
+## GraphQl API
+
+### Get a Subgraph
+
+
+## Get a node
+
+
+## Models
+
+### Nodes
+
+#### On-chain
+| name | type | description  |
+|------| -----| -----------  |
+|      |      |              |
+
+
+#### Off-chain
+| name | type | description  |
+|------| -----| -----------  |
+|      |      |              |
+
+### Subgraphs
+
+#### On-chain
+| name | type | description  |
+|------| -----| -----------  |
+|      |      |              |
+
+
+#### Off-chain
+| name | type | description  |
+|------| -----| -----------  |
+|      |      |              |
