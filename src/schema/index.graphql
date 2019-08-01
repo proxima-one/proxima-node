@@ -1,0 +1,42 @@
+
+type Query {
+  account(address: String): Account
+  subgraph(address: String, name: String): Subgraph
+  subgraphs: [Subgraph]
+  accounts: [Account]
+  nodes: [Account]
+}
+
+type Subgraph {
+  # Internal (on-chain)
+  name: String!
+  owner: address
+  availability: Float
+  storage: Float
+  id: !String
+  stake: Float
+
+  # External (off-chain) via events
+  nodes: [Accounts]
+  subscribers: [Accounts]
+
+  # External (off-chain) via signatures
+  image: Blob
+  code: Blob
+  description: !Text
+  version: !String
+
+}
+
+
+type Account {
+  # Internal (on-chain)
+  address: String
+  stake: Float
+  storage: Float
+  usage: Float
+
+  # External (off-chain) via events
+  subscriptions: [Subgraph]
+  subgraphs: [Subgraph]
+}
