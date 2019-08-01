@@ -10,21 +10,21 @@ type Query {
 type Subgraph {
   # Internal (on-chain)
   name: String!
-  owner: address
+  owner: String
   availability: Float
   storage: Float
-  id: !String
+  id: String!
   stake: Float
 
   # External (off-chain) via events
-  nodes: [Accounts]
-  subscribers: [Accounts]
+#  nodes: [Accounts]
+#  subscribers: [Accounts]
 
   # External (off-chain) via signatures
-  image: Blob
-  code: Blob
-  description: !Text
-  version: !String
+#  image: Blob
+#  code: Blob
+#  description: !Text
+#  version: !String
 
 }
 
@@ -37,6 +37,6 @@ type Account {
   usage: Float
 
   # External (off-chain) via events
-  subscriptions: [Subgraph]
-  subgraphs: [Subgraph]
+#  subscriptions: [Subgraph]
+#  subgraphs: [Subgraph]
 }

@@ -1,7 +1,7 @@
 {
   "name": "vuepress-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -12,6 +12,7 @@
     "vuepress-tabs": "^0.1.6"
   },
   "dependencies": {
+    "graphql-yoga": "^1.18.1",
     "vue-tabs-component": "^1.5.0",
     "vuepress-plugin-tabs": "^0.2.2"
   }
