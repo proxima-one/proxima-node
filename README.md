@@ -5,29 +5,28 @@
 
 *The Proxima node is responsible for maintaining the registry of accounts/subgraphs, delegating deployments, and managing load to Proxima query nodes*
 
-The Proxima Index Node is responsible for maintaining the registry, delegating deployments, and managing load to Proxima query nodes.
+The Proxima Node is responsible for maintaining the registry, delegating deployments, and managing load to data vertices. sIt acts as the gateway to the Proxima network, providing access to data vertices for deployment, updates, synchronizations, and queries. Data providers on the Proxima network run Proxima nodes, along with data vertices, to network data requests.
 
-///- responsibilities 
+- **Managing Requests**: The Proxima node is responsible for processing network requests which includes: the initial identity management and authorization for the Proxima network, the selection of the correct data vertex, and then the routing of the request to one provider of this data vertex.
+- **Managing Data Vertices**: The Proxima node manages the data vertices that are deployed to the Proxima network. This includes synchronization information, network peers, and any other needed configuration, payment or authentication information. Data Vertices are also updated through the Proxima Index node, and can be hosted by the nodes themselves.
+- **Managing Identities**: Along with data vertices, the Proxima node manages identities on the Proxima network. This can include providers for networking purposes, as well as specific user identities on the network.
+- **Managing Network, Payments, Logistics**: The Proxima node will eventually manage the payments, stakes, and logistics behind the network itself. It is through their nodes, that providers can be compensated for running data vertices and serving requests. 
 
 ## Quick Start
+**TO BE IMPLEMENTED**
 
 ### Requirements
-Node requirements.
+**TO BE IMPLEMENTED**
 
-### Installation 
+### Installation
+**TO BE IMPLEMENTED**
 
-### Usage 
-
-
-## Node Architecture 
-
-### Components 
-
-### Authentication
-
-### Data Vertices
-
-
+### Usage
+**TO BE IMPLEMENTED**
+### Running
+**TO BE IMPLEMENTED**
+### Testing
+**TO BE IMPLEMENTED**
 
 <!--
 - Main concepts
